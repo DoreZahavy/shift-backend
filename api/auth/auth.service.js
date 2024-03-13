@@ -4,7 +4,7 @@ import bcrypt from 'bcrypt'
 import {userService} from '../user/user.service.js'
 import {logger} from '../../services/logger.service.js'
 
-const cryptr = new Cryptr(process.env.SECRET || 'board-land')
+const cryptr = new Cryptr(process.env.SECRET || 'smala')
 
 export const authService = {
     signup,
